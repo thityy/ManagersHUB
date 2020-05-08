@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8158285477519357191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8158285477519357189}
+  - component: {fileID: 8158285477519357188}
+  m_Layer: 0
+  m_Name: Manager_Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8158285477519357189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8158285477519357191}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8158285477519357188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8158285477519357191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8604361adc22b3f4db5170ae59c39884, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UseMusicSystem: 0
+  m_MusicPlayer: {fileID: 0}
+  m_UseOptionSystem: 0
+  m_MasterGroup: {fileID: 24300002, guid: ec46e63676f51f84d8d9bc76416331a4, type: 2}
+  m_MusicGroup: {fileID: 243548060238032684, guid: ec46e63676f51f84d8d9bc76416331a4,
+    type: 2}
+  m_SFXGroup: {fileID: 243742588802986180, guid: ec46e63676f51f84d8d9bc76416331a4,
+    type: 2}
+  m_VoiceGroup: {fileID: 243722752311631890, guid: ec46e63676f51f84d8d9bc76416331a4,
+    type: 2}
+  m_UseSFXSystem: 0
+  m_ListPerfSounds: {fileID: 0}
+  m_MaxAmountPerfSFX: 0
+  m_UseFootSystem: 0
+  m_FootSoundsData: {fileID: 0}
+  m_FootAudioSelector: 1
+  m_UseRadioSystem: 0
+  m_RadioStationsInput: []
+  m_RadioDisplay: {fileID: 0}
+  m_DisplayLength: 2
